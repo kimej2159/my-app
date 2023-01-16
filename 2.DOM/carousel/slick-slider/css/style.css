@@ -1,0 +1,22 @@
+body {
+    background-color: blueviolet;
+}
+
+.carousel-outer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.scene {
+    display: flex;
+    justify-content: space-between;
+}
+.scene > div:nth-child(1) {
+    flex: 3;
+}
+.scene > div:nth-child(2) {
+    flex: 5;
+}
+.scene > div:nth-child(2) > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}

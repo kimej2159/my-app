@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bxslider 적용해보기</title>
+    <!-- step1. include bxslider files CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>    
+</head>
+<body>
+    <div class="slides">
+        <!-- step3. 슬라이드 항목을 div로 감싸기! -->
+        <div><img src="https://picsum.photos/id/1/1920/400" alt="dummy"></div>
+        <div><img src="https://picsum.photos/id/10/1920/400" alt="dummy"></div>
+        <div><img src="https://picsum.photos/id/100/1920/400" alt="dummy"></div>
+        <div><img src="https://picsum.photos/id/1000/1920/400" alt="dummy"></div>
+    </div>
+    <!-- step2. -->
+    <script>
+        $(document).ready(function(){
+          $('.slides').bxSlider();
+        });
+      </script>
+</body>
+</html>

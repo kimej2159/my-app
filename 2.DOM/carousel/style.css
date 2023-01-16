@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to bottom, #8bd5ff, #6a08cc);
+  height: 100vh; /* view port height : ex> 모니터, 태블릿, 스마트폰, 각종 스크린장치의 출력영역..*/
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* google font icon : menu, close style */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 3rem 0 2rem 0;
+}
+h1 + p {
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+.btns {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  gap: 1rem;
+}
+.btns li {
+  padding: 1rem 1.5rem;
+  background: #f1f1f1;
+  cursor: pointer; /* 손가락 모양의 포인터로 변경 */
+}
+.active {
+    background: black !important;
+    color: white;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center; /* 수평: 중앙 정렬 */
+  align-items: center; /* 수직 : 중앙 정렬 */
+  gap: 2rem; /* 수직,수평에 아이템간의 공간 여백 */
+}
+
+.arrow span {
+  font-size: 5rem;
+  color: white;
+}
+.frame {
+  width: 1000px;
+  height: 400px;
+  overflow: hidden;
+}
+/* 추가 */
+.slides {
+  display: flex;
+  transition: all .4s; /* 트랜지션 : before, after 사이의 중간과정을 생성 */
+  /* 위치 :0 -> 100 으로 점진적으로 (10,20,30..) 변화되게 하는 스타일 속성 */
+}
+.info {
+  max-width: 500px;
+  margin: 2rem auto;
+  color: white;
+}
+.info .title {
+  border-bottom: 1px solid white;
+  padding: 0 0 1rem 0;
+  margin: 0 0 1rem 0;
+}

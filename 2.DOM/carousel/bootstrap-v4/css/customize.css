@@ -1,0 +1,15 @@
+body {
+    background: #fffae9;
+  }
+  .header-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .btn-register{
+    background: #FD5D11;
+    color: white;
+  }
+  .ml-10 {
+    margin-left: 10rem !important;
+  }
+  
