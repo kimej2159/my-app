@@ -1,0 +1,35 @@
+header {
+    background: url("../images/bg-gradient.png") no-repeat top left / cover;
+    overflow: hidden;
+  }
+.links {
+list-style-type: none;
+}
+
+.text-carrot {
+    color: #f1706b;
+}
+.bg-carrot {
+    color: white;
+    background-color: #f1706b;
+}
+.btn-carrot {
+    color: white;
+    background-color: #f1706b;
+    border-color: #f1706b;
+}
+.carousel-indicators {
+    bottom: -50px;
+  }
+  .carousel-indicators li {
+    background-color: #ccc;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .carousel-indicators li.active {
+    background-color: #f1706b;
+  }
+  bg-grape{
+    background-color: #f8f8ff;
+  }

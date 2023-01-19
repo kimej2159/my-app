@@ -1,0 +1,36 @@
+.h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background: darkslateblue;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.unit-converter {
+    display: flex;
+    max-width: 1190px;
+    justify-content: center;
+    margin: 2rem;
+
+}
+.ad {
+    background: #eee;
+    width: 400px;
+    height: 300px;
+}
+.converter{
+    padding: 1rem;
+}
+.converter ul {
+    list-style: none;
+}
+.converter input {
+    padding: 0.5rem 1rem;
+    width: 80%;
+}
+.converter ul li {
+    margin: 0 0 1rem 0;
+}

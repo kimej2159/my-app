@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>리액트 시작하기</title>
+  </head>
+  <body>
+    <h1>React 라이브러리를 [직접] 추가해서 사용하기</h1>
+    <div id="root"></div>
+    <!-- Load React. (1) React : UI를 변경    (2) ReactDOM : 조작,제어 -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- React Syntax -->
+    <script>
+      const root = document.getElementById("root");
+      const span = React.createElement(
+        "span",
+        { id: "counter", style: { color: "red", fontSize: "30px" } },
+        "span tag"
+      ); // javascript로 span 태그 생성
+      ReactDOM.createRoot(root).render(span); // ReactDOM으로 DOM 조작(=추가)
+    </script>
+  </body>
+</html>
